@@ -11,11 +11,13 @@ npm install react-native-tailwindstyle
 ## Usage
 
 ```js
-import { multiply } from "react-native-tailwindstyle";
+import { View } from "react-native-tailwindstyle";
 
 // ...
 
-const result = await multiply(3, 7);
+<View p-10 pt-10 pb-10 px-10 py-10>
+
+</View>
 ```
 
 ## Contributing
