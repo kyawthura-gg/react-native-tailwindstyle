@@ -1,0 +1,22 @@
+{
+  "name": "react-native-tailwindstyle-example",
+  "displayName": "Tailwindstyle Example",
+  "expo": {
+    "name": "react-native-tailwindstyle-example",
+    "slug": "react-native-tailwindstyle-example",
+    "description": "Example app for react-native-tailwindstyle",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
