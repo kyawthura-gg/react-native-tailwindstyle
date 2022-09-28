@@ -1,21 +1,12 @@
 import * as React from 'react';
 
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply, View as TestView } from '../../src';
+import { StyleSheet, Text } from 'react-native';
+import { View } from '../../src';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
   return (
-    <View style={styles.container}>
-      <Text>Result: {result}</Text>
-      <TestView pt-20>
-        <Text>Result</Text>
-      </TestView>
+    <View pt-20 px-10>
+      <Text>test</Text>
     </View>
   );
 }
