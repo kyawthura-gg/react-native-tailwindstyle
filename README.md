@@ -1,3 +1,8 @@
+🚧 🚧 🚧
+
+This project is experimental.
+If you're looking for `tailwind` style solution for react native, we recommend to use [nativewind](https://www.nativewind.dev/)
+
 # react-native-tailwindstyle
 
 Highly customizable small size library for customizing ui in react native.
